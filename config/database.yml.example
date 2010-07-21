@@ -18,7 +18,7 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: dummyapp_development
+  database: freysmiles_development
   pool: 5
   username: root
   password:
@@ -31,7 +31,7 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: dummyapp_test
+  database: freysmiles_test
   pool: 5
   username: root
   password:
@@ -41,7 +41,7 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: dummyapp_production
+  database: freysmiles_production
   pool: 5
   username: root
   password: 
