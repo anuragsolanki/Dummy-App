@@ -1,0 +1,26 @@
+<p class='bold'>Enter user details</p>
+
+<% form_for(@user) do |f| %>
+	
+	<%= f.error_messages %>
+	
+	<p>
+		<%= f.label :firstname %><br/>
+		<%= f.text_field :firstname %>
+	</p>
+	
+	<p>
+		<%= f.label :lastname %><br/>
+		<%= f.text_field :lastname %>
+	</p>
+	
+	<p>
+		<%= f.label :address %><br/>
+		<%= f.text_field :address %>
+	</p>
+	
+	<p>
+		<%= f.submit "Create" %>
+	</p>
+	
+<% end %>

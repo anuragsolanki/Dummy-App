@@ -1,0 +1,19 @@
+<%= link_to "Create new User", new_user_path %>
+<br />
+
+<p>
+	<span class="bold">Firstname</span>
+	<span class="bold">Lastname</span>
+	<span class="bold">Address</span>
+</p>
+<ol>
+	<% for user in @users %>
+	<li>
+		<p>
+			<span><%= user.firstname %></span>
+			<span><%= user.lastname %></span>
+			<span><%= user.address %></span>
+		</p>
+	</li>
+	<% end %>
+</ol>

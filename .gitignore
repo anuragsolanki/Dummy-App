@@ -1,0 +1,13 @@
+doc/*.png
+.project
+.DS_Store
+log/*.log
+tmp/cache/*
+tmp/pids/*
+tmp/sessions/*
+tmp/sockets/*
+config/database.yml
+doc/api
+doc/app
+db/schema.rb
+coverage

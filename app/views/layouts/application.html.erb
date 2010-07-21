@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>
+			Dummy Rails App
+    </title>	
+    <%= stylesheet_link_tag "style", :cache => true -%>
+
+  </head>
+  <body>
+
+    <div class = 'wrapper'>
+      <% if flash[:notice] %>
+      <div class = 'notice'>
+        <%= flash[:notice] %>
+      </div>
+      <% end %>
+
+      <%= yield %>
+    </div>
+
+  </body>
+</html>

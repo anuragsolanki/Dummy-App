@@ -1,0 +1,6 @@
+.wrapper { width: 950px;  margin: 0 auto; text-align: left; overflow: hidden; }
+.wrapper h1 { font-size: 24px;  text-align: left; clear: left; }
+.notice{color:#006600; border: 1px solid #99CC99; background:#E2F9E3 url(../images/alertgood_icon.gif) no-repeat scroll 0 0; padding:2px 2px 2px 35px; margin: 10px 0px;}
+
+p span {min-width: 150px; padding: 20px;}
+.bold {font-weight: bold;}
