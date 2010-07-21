@@ -1,4 +1,4 @@
-set :application, "dummyapp"
+set :application, "freysmiles"
 set :repository,  "git@github.com:anuragsolanki/Dummy-App.git"
 
 set :deploy_to, "/var/www/#{application}"
